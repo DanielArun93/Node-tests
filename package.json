@@ -1,0 +1,20 @@
+{
+  "name": "node-tests",
+  "version": "1.0.0",
+  "description": "tetsing sample",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha **/*.test.js",
+    "start": "node server.js"
+  },
+   "dependencies": {
+    "express": "^4.16.4",
+    "expect": "^1.20.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.4.2"
+  },
+  "author": "arun",
+  "license": "ISC"
+}
